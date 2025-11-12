@@ -43,13 +43,21 @@
     color:#30333A;
 
 }
-#hero-section .text-box button{
+#hero-section .text-box .button{
     border: var(--bdr-n);
     background-color: var(--bg-color);
     padding:var(--btn-padding);
     font-weight: 600;
     font-size: var(--txt-con);
     width: 50%;
+}
+.button{
+    border: var(--bdr-n);
+    background-color: var(--bg-color);
+    padding:var(--btn-padding);
+    font-weight: 600;
+    font-size: var(--txt-con);
+    width: fit-content;
 }
 #books-shelf{
     padding:var(--section-padding);
@@ -66,3 +74,80 @@
 #books-shelf .card{
     border:none;
 }
+.row{
+    display: flex;
+    align-items: center;
+}
+  .carousel-container {
+        position: relative;
+        overflow: hidden;
+      }
+      .carousel-track {
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+      .carousel-item-custom {
+        flex: 0 0 calc(100% / 3);
+        padding: 0 10px;
+      }
+      .carousel-item-custom img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0);
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+      .carousel-btn.prev {
+        left: 10px;
+      }
+      .carousel-btn.next {
+        right: 10px;
+      }
+
+      /* Books section */
+      #books-shelf {
+        padding: 80px 0;
+        text-align: center;
+      }
+      #books-shelf h1 {
+        font-family: "Noto Serif", serif;
+        margin-bottom: 10px;
+      }
+      #books-shelf .card {
+        border: none;
+        margin-bottom: 30px;
+      }
+      #books-shelf .card img {
+        border-radius: 8px;
+      }
+      footer{
+        background-color: black;
+        padding: 80px 80px 50px;
+      }
+      .footer-dwn{
+        color: white;
+        font-size: 13px;
+        font-family: var(--sora-font);
+        padding-top: 24px !important;
+        padding: 0;
+        display: flex;
+      }
+      .footer-dwn .div{
+        width: 33%;
+      }
+      .footer-dwn .icon{
+        display: flex;
+        gap: 16px;
+        justify-content: end;
+      }
+      .footer-dwn .payment-img{
+        text-align: center;
+      }
