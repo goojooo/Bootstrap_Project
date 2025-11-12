@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0 ;
+ font-family: "Noto Serif", serif;
+}
+:root{
+    --bg-color:#FFC46B;
+    --txt-color:#30333A;
+    --heading: 48px;
+    --txt-con:15px;
+    --btn-padding:20px 35px;
+    --sora-font:"Sora", sans-serif;
+    --section-padding:80px;
+    --bdr-n:none;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+#hero-section{
+    background-color:#FAE8CD;
+    padding: var(--section-padding);
+}
+#hero-section .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#hero-section .text-box h4{
+    font-size: 18px;
+    font-family: var(--sora-font);
+    color:var(--txt-color)
+}
+#hero-section .text-box h1{
+    font-size: 60px;
+    line-height: 84px;
+    font-weight: 700;
+}
+#hero-section .text-box p, #books-shelf p{
+    font-size: var(--txt-con);
+    color:#30333A;
+
+}
+#hero-section .text-box button{
+    border: var(--bdr-n);
+    background-color: var(--bg-color);
+    padding:var(--btn-padding);
+    font-weight: 600;
+    font-size: var(--txt-con);
+    width: 50%;
+}
+#books-shelf{
+    padding:var(--section-padding);
+}
+ #books-shelf h1{
+    font-size: var(--heading);
+    text-align:center;
+
+ }
+ #books-shelf .subheading{
+    text-align: center;
+    padding-block: 12px 14px;
+ }
+#books-shelf .card{
+    border:none;
+}
