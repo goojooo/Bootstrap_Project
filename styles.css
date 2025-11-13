@@ -212,7 +212,11 @@ footer .row {
 #zero #three{
     left:60%;
 }
-
+#community{
+    background-color: #FAE8CD;
+    padding: var(--section-padding);
+    align-items: center;
+}
 @media only screen and (min-width:999px) {
     #zero h1{
         font-size: var(--heading);
