@@ -161,6 +161,8 @@
 }
 #editors{
     padding: var(--section-padding);
+    background-color: #F8F8F8;
+
 }
 footer {
     background-color: black;
@@ -220,6 +222,10 @@ footer .row {
 #banner{
     background-color: #FAE8CD;
     padding: var(--section-padding);
+}
+#author{
+    padding: 90px 40px;
+    background-color: #F8F8F8;
 }
 @media only screen and (min-width:999px) {
     #zero h1{
