@@ -227,6 +227,14 @@ footer .row {
     padding: 90px 40px;
     background-color: #F8F8F8;
 }
+#bookworms{
+    background-color: #F8F8F8;
+    padding-top: 36px;
+}
+#abt-logos{
+    background-color: #F8F8F8;
+    padding: 36px 80px ;
+}
 @media only screen and (min-width:999px) {
     #zero h1{
         font-size: var(--heading);
