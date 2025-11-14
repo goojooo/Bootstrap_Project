@@ -235,6 +235,25 @@ footer .row {
     background-color: #F8F8F8;
     padding: 36px 80px ;
 }
+#abt-heroWrapper{
+    background-color: #FAE8CD;
+    padding: 10% 24%;
+    text-align: center;
+}
+#abt-heroWrapper h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 84px;
+}
+#wtBookwork{
+    padding: var(--section-padding);
+    background-color: #F8F8F8;
+}
+#wtBookwork .span{
+    border-left: 3px solid;
+    padding-left: 8px;
+    font-weight: 600;
+}
 @media only screen and (min-width:999px) {
     #zero h1{
         font-size: var(--heading);
