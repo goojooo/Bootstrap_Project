@@ -254,6 +254,10 @@ footer .row {
     padding-left: 8px;
     font-weight: 600;
 }
+#auth{
+    padding: 120px;
+    text-align: center;
+}
 @media only screen and (min-width:999px) {
     #zero h1{
         font-size: var(--heading);
