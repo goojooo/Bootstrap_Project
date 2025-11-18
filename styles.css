@@ -258,6 +258,17 @@ footer .row {
     padding: 120px;
     text-align: center;
 }
+#arrival{
+    padding: 24px;
+    background-color: #F8F8F8;
+}
+#arrival h1{
+    font: 36px;
+    color: #FFC46B;
+}
+.card{
+    background-color: #F8F8F8;
+}
 @media only screen and (min-width:999px) {
     #zero h1{
         font-size: var(--heading);
@@ -307,6 +318,12 @@ footer .row {
 
 footer .row {
     align-items: start;
+}
+#arrival{
+    padding: 80px;
+}
+#arrival h1{
+    font: 60px;
 }
 
 }
