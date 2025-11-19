@@ -235,8 +235,10 @@ footer .row {
 }
 #banner{
     background-color: #FAE8CD;
-    padding: var(--section-padding);
+    padding:36px 24px;
     width:100%;
+    flex-direction: column;
+    text-align: center;
 }
 #author{
     padding: 90px 40px;
@@ -306,6 +308,15 @@ footer .row {
     font-family: var(--sora-font);
     line-height: 1.3;
 }
+  .publish{
+        padding: 36px 24px;
+        background-color: #F8F8F8;
+        width: 100%;
+        text-align: center;
+    }
+    .aurther-ex {
+        flex-direction: column;
+    }
 /* Prevent any X-axis overflow */
 body, html {
   overflow-x: hidden !important;
@@ -385,7 +396,12 @@ textarea.astra-input {
     max-width: 1100px;   /* Astra exact width */
   }
 }
+@media only screen and (mxn-width:999px){
+    .col-6.exim{
+        width:100%
 
+    }
+}
 @media only screen and (min-width:999px) {
     #zero h1{
         font-size: var(--heading);
@@ -393,8 +409,7 @@ textarea.astra-input {
     }
     .publish{
         padding: 80px;
-        background-color: #F8F8F8;
-        width: 100%;
+        text-align: left;
     }
     footer {
     padding: 80px 80px 50px;
@@ -471,4 +486,12 @@ footer .row {
     background-color: #F8F8F8;
 
 }
+#banner{
+    padding: var(--section-padding);
+    flex-direction: row;
+    text-align: left;
+}
+.aurther-ex {
+        flex-direction: row;
+    }
 }
