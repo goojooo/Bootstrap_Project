@@ -306,6 +306,86 @@ footer .row {
     font-family: var(--sora-font);
     line-height: 1.3;
 }
+/* Prevent any X-axis overflow */
+body, html {
+  overflow-x: hidden !important;
+}
+
+/* Left Side Typography */
+.astra-heading {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.astra-text {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Social Icons (Exact Astra Style) */
+.astra-social {
+  width: 32px;
+  height: 32px;
+  background: #ffe7c0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffb13d;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.astra-social:hover {
+  background: #ffb13d;
+  color: #fff;
+}
+
+/* Right Side Form Box */
+.astra-form-box {
+  background: #f8f8f8;
+  border-radius: 6px;
+  border: 1px solid #efefef;
+}
+
+/* Inputs */
+.astra-input {
+  height: 42px;
+  font-size: 14px;
+}
+
+.astra-input:focus {
+  box-shadow: none;
+  border-color: #ffb13d;
+}
+
+/* Textarea exact height */
+textarea.astra-input {
+  height: 130px !important;
+}
+
+/* Submit Button */
+.astra-btn {
+  background: #ffb13d;
+  color: #000;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.astra-btn:hover {
+  background: #eaa22b;
+  color: #000;
+}
+
+/* Container exact Astra width */
+@media (min-width: 992px) {
+  .astra-contact .container {
+    max-width: 1100px;   /* Astra exact width */
+  }
+}
+
 @media only screen and (min-width:999px) {
     #zero h1{
         font-size: var(--heading);
