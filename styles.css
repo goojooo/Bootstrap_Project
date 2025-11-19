@@ -263,7 +263,7 @@ footer .row {
     background-color: #F8F8F8;
 }
 #arrival h1{
-    font: 36px;
+    font: 36px !important;
     color: #FFC46B;
 }
 .card{
@@ -323,7 +323,7 @@ footer .row {
     padding: 80px;
 }
 #arrival h1{
-    font: 60px;
+    font-size: 60px !important;
 }
 
 }
