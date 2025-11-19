@@ -35,7 +35,7 @@
 } */
 #hero-section {
     background-color: #FAE8CD;
-    padding: var(--section-padding);
+    padding: 36px 24px;
 }
 
 #hero-section .text-box {
@@ -51,8 +51,8 @@
 }
 
 #hero-section .text-box h1 {
-    font-size: 60px;
-    line-height: 84px;
+    font-size: 36px;
+    line-height: 50px;
     font-weight: 700;
 }
 
@@ -82,13 +82,13 @@
 }
 
 #books-shelf {
-    padding: var(--section-padding) !important;
+    padding: 36px 24px !important;
         background-color: #F8F8F8;
 
 }
 
 #books-shelf h1 {
-    font-size: var(--heading);
+    font-size: 28px;
     text-align: center;
 
 }
@@ -451,5 +451,19 @@ footer .row {
 }
 .button {
     width: fit-content !important;
+}
+#hero-section {
+    padding: var(--section-padding);
+}
+#hero-section .text-box h1 {
+    font-size: 60px;
+    line-height: 84px;
+}
+#books-shelf {
+    padding: var(--section-padding) !important;
+
+}
+#books-shelf h1 {
+    font-size: var(--heading);
 }
 }
