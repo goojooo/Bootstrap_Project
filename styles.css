@@ -171,7 +171,7 @@
     
 }
 #editors{
-    padding: var(--section-padding);
+    padding: 36px 24px;
     background-color: #F8F8F8;
 
 }
@@ -465,5 +465,10 @@ footer .row {
 }
 #books-shelf h1 {
     font-size: var(--heading);
+}
+#editors{
+    padding: var(--section-padding);
+    background-color: #F8F8F8;
+
 }
 }
