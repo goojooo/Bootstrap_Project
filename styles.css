@@ -431,6 +431,11 @@ textarea.astra-input {
     footer h6{
         text-align: center;
     }
+    .footer-dwn .div{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
 }
 @media only screen and (min-width:999px) {
     #zero h1{
