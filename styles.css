@@ -246,6 +246,10 @@ footer .row {
     padding: 90px 40px;
     background-color: #F8F8F8;
 }
+#author h3, #author h1, #editors h1, .publish h1 , #community h2{
+    font-weight: 700;
+}
+
 #bookworms{
     background-color: #F8F8F8;
     padding-top: 36px;
@@ -319,12 +323,11 @@ footer .row {
     .aurther-ex {
         flex-direction: column;
     }
-/* Prevent any X-axis overflow */
+
 body, html {
   overflow-x: hidden !important;
 }
 
-/* Left Side Typography */
 .astra-heading {
   font-size: 22px;
   font-weight: 700;
@@ -336,7 +339,6 @@ body, html {
   line-height: 1.4;
 }
 
-/* Social Icons (Exact Astra Style) */
 .astra-social {
   width: 32px;
   height: 32px;
@@ -356,14 +358,12 @@ body, html {
   color: #fff;
 }
 
-/* Right Side Form Box */
 .astra-form-box {
   background: #f8f8f8;
   border-radius: 6px;
   border: 1px solid #efefef;
 }
 
-/* Inputs */
 .astra-input {
   height: 42px;
   font-size: 14px;
@@ -374,12 +374,10 @@ body, html {
   border-color: #ffb13d;
 }
 
-/* Textarea exact height */
 textarea.astra-input {
   height: 130px !important;
 }
 
-/* Submit Button */
 .astra-btn {
   background: #ffb13d;
   color: #000;
@@ -396,13 +394,15 @@ textarea.astra-input {
     align-items: center;
     gap: 12px;
 }
-/* Container exact Astra width */
+.new-collage img{
+    width:inherit;
+}
 @media (min-width: 992px) {
   .astra-contact .container {
     max-width: 1100px;   /* Astra exact width */
   }
 }
-@media only screen and (mxn-width:999px){
+@media only screen and (max-width:999px){
     .col-6.exim{
         width:100%
 
@@ -486,6 +486,7 @@ footer .row {
 }
 #books-shelf h1 {
     font-size: var(--heading);
+    font-weight: 700;
 }
 #editors{
     padding: var(--section-padding);
@@ -504,5 +505,11 @@ footer .row {
     #zero{
     flex-direction: row;
     text-align: left;
+}
+#community h2{
+    font-size:48px;
+}
+#arrival h1{
+    font-weight: 700;
 }
 }
