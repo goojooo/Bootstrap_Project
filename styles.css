@@ -406,6 +406,11 @@ textarea.astra-input {
  #books-shelf p{
     font-weight: 700;
  }
+ #abt-logos{
+    flex-direction: column;
+    padding: 24px;
+    text-align: center;
+ }
 @media (min-width: 992px) {
   .astra-contact .container {
     max-width: 1100px;   
