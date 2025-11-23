@@ -461,6 +461,9 @@ textarea.astra-input {
     .wt-top{
         flex-direction: column;
     }
+    .navbar-toggler{
+        border: none !important;
+    }
 }
 @media only screen and (min-width:999px) {
     #zero h1{
